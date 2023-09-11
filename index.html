@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Client</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="logo">Ultimate Client</div>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#download">Download</a>
+            <a href="#support">Support</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to Ultimate Client</h1>
+        <p>The most advanced Minecraft client experience.</p>
+        <button onclick="downloadClient()">Download Now</button>
+    </section>
+
+    <!-- Additional sections like Features, Download, Support go here -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+<section id="features">
+    <h2>Key Features</h2>
+    
+    <div class="feature">
+        <img src="fpsboost.jpg" alt="fps boost">
+        <h3>LARGE Fps Boost!</h3>
+        <p>The client gives LARGE amount of fps boost!</p>
+    </div>
+
+    <div class="feature">
+        <img src="100mods.jpg" alt="Feature 2 image">
+        <h3>Large ranges of mods!</h3>
+        <p>We have a ton of large ranges of mods of your choice!</p>
+    </div>
+
+    <div class="feature">
+        <img src="minecraftcapes.jpg" alt="Feature 3 image">
+        <h3>Cosmetics!</h3>
+        <p>Now you can emote on anyone, get free capes too! </p>
+    </div>
+
+    <!-- Add more feature blocks as needed -->
+
+</section>
+<section id="download">
+    <h2>Download Ultimate Client</h2>
+    
+    <p>Choose your platform and get the latest version of Ultimate Client for an enhanced Minecraft experience.</p>
+
+    <div class="download-option">
+        <img src="win10.png" alt="Windows Icon">
+        <h3>Windows</h3>
+        <button onclick="downloadFor('windows')">Download</button>
+    </div>
+
+    <div class="download-option">
+        <img src="mac.png" alt="Mac Icon">
+        <h3>Mac</h3>
+        <button onclick="downloadFor('mac')">Download</button>
+    </div>
+
+    <div class="download-option">
+        <img src="linux.png" alt="Linux Icon">
+        <h3>Linux</h3>
+        <button onclick="downloadFor('linux')">Download</button>
+    </div>
+
+    <!-- Add more download options if you support other platforms -->
+
+    <p class="note">Make sure you're downloading the client for the correct platform. Need help? <a href="#support">Contact Support</a>.</p>
+
+</section>
+<section id="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+    <h3>Question 1?</h3>
+    <p>Answer to question 1...</p>
+</div>
+
+
+   <div class="faq-item">
+    <h3>Question 1?</h3>
+    <p>Answer to question 1...</p>
+</div>
+
+
+    <!-- Add more FAQ items as needed -->
+
+    <p class="contact-prompt">Didn't find what you're looking for? <a href="#support">Contact Support</a>.</p>
+</section>
+<section id="support">
+    <h2>Support & Assistance</h2>
+    <p>If you're encountering issues with Ultimate Client, please consult our FAQ first. If your issue isn't addressed, use the form below to get in touch with our support team.</p>
+
+    <form action="path_to_server_side_script" method="post">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="issue">Issue:</label>
+            <textarea id="issue" name="issue" rows="4" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</section>
+
 
